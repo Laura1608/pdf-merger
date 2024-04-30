@@ -17,7 +17,5 @@ for file in glob.glob("*.pdf"):
         merger.append(file)
         merger.write('combined_file.pdf')
         merger.close()
-        print("File successfully added!")
-    else:
-        # Show me a message when files didn't match
-        print("File doesn't match requirements.")
+
+print("Merging completed!")
